@@ -1,0 +1,11 @@
+class Add: #파라매터 n1,n2를 받으면 더해서 값을 반환
+    def add(self, n1,n2):
+        return n1 + n2
+    
+class Calculator(Add): #Add 클래스를 상속받음 파라매터 n1,n2를 받으면 빼서 값을 반환 
+    def sub(self, n1, n2):
+        return n1 - n2
+    
+obj = Calculator() #Calculator클래스를 생성해서 obj에 저장
+print(obj.add(1,2)) #obj.add함수실행 인자는 1,2 
+print(obj.sub(1,2)) #obj.sub함수 실행 인자는 1,2 
