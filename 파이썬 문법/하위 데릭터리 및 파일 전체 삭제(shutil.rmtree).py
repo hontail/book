@@ -12,4 +12,3 @@ if k == '네':
         print(f"{target_folder}의 모든 파일들을 삭제했습니다")
     except Exception as e:
         print(e)
-
